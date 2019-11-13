@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.jumbotron {
+  padding: 30px;
+  background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  color: white;
+  margin: 0; 
+  height: 200px;}
+  body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+
+  p.pHeader {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, rgb(10, 10, 10));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 10s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  .nav-item{
+    border: 2px solid white;
+  }
+  .nav-text{
+    border: 3px solid white;
+  }
