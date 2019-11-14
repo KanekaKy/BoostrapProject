@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="image/logo.png" height="100" width="100" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#boostrapNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="bootstrapNavbar">
@@ -62,7 +62,11 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">Login </h3>
+                    <div class="text-center">
+                                    <img src="image/welcome.png" alt="login"
+                                        class="img-thumbnail" height= "150" width="250" rounded-circle">
+                                        <h4> Have an account? Log In:</h4>
+                                </div>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -104,9 +108,9 @@
                         
                     <div class="modal-header">
                             <div class="text-center">
-                                    <img src="https://webstockreview.net/images/clipart-child-technology.png" alt="signup"
-                                        class="img-thumbnail height=" 150" width="150" rounded-circle">
-                                        <h3 class="pull-center"> Not Yet a member? Sign Up to Connect:</h3>
+                                    <img src="image/signup.png" alt="signup"
+                                        class="img-thumbnail" height=" 150" width="150" rounded-circle">
+                                        <h4 class="pull-center"> Not Yet a member? Sign Up to Connect:</h4>
                                 </div>
                                     
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -115,6 +119,16 @@
                         <div class="container-fluid">
                             <form>
                                 <div class="form-row">
+                                        <div class="form-group col-6">
+                                                <label class="sr-only" for="firstName">First Name</label>
+                                                <input type="email" class="form-control form-control-sm" id="firstName"
+                                                    placeholder="First Name">
+                                            </div>
+                                            <div class="form-group col-6">
+                                                    <label class="sr-only" for="lastName">Last Name</label>
+                                                    <input type="email" class="form-control form-control-sm" id="lastName"
+                                                        placeholder="Last Name">
+                                                </div>
                                     <div class="form-group col-12">
                                         <label class="sr-only" for="loginEmail">Email address</label>
                                         <input type="email" class="form-control form-control-sm" id="loginEmail"
@@ -257,54 +271,6 @@
                             </a>
                         </div>
                     </div>
-                <!-- <div class="col">
-                    <form role="form">
-                        <div class="text-center">
-                            <img src="https://webstockreview.net/images/clipart-child-technology.png" alt="signup"
-                                class="img-thumbnail height=" 150" width="150" rounded-circle">
-                        </div>
-                        <fieldset>
-                            <p class="pull-center text-center"> Not Yet a member? Sign Up to Connect:</p>
-                            <div class="form-group">
-                                <input type="text" name="firstname" id="firstname" class="form-control input-lg"
-                                    placeholder="First Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="lastname" id="lastname" class="form-control input-lg"
-                                    placeholder="Last Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="lastname" id="lastname" class="form-control input-lg"
-                                    placeholder="Last Name">
-                            </div>
-                            <small> You have to be at least 15 years old to join DevMeet</small>
-
-                            <div class="form-group">
-                                <input type="email" name="email" id="email" class="form-control input-lg"
-                                    placeholder="Email Address">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" name="password" id="password" class="form-control input-lg"
-                                    placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" name="password2" id="password2" class="form-control input-lg"
-                                    placeholder="Retype Password">
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input">
-                                    By Clicking register you're agree to our policy & terms
-                                </label>
-                            </div>
-                            <br />
-                            <div>
-                                <button class="btn btn-primary btn-lg" type="submit">Register</button>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-            </div> -->
         </div>
     </div>
     <footer class="site-footer">
@@ -322,7 +288,7 @@
                                 class="fa fa-youtube"></i></a>
                     </div>
                     <div class="col-sm-4 text-center">
-                        <a role="button" class="btn btn-link" href="tel:+1234567"><i class="fa fa-phone fa-lg"></i>
+                        <a role="button" class="btn btn-link" href="tel:+123456789"><i class="fa fa-phone fa-lg"></i>
                             1-123-4567</a><br />
                         <a role="button" class="btn btn-link" href="mailto:devmeet@gmail.com"><i
                                 class="fa fa-envelope-o">Devmeet@gmail.com</i> </a>
